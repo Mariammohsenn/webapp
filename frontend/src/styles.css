@@ -1,0 +1,80 @@
+/* This is the style  */
+/* global reset */
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #ffe6f7, #e6f0ff);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* center container */
+.container {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  max-width: 90%;
+}
+
+/* heading */
+.container h1,
+.container h2 {
+  color: #ff66b2;
+  margin-bottom: 1rem;
+}
+
+/* paragraph text */
+.container p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* cute buttons */
+.cute-btn {
+  background: #ff80bf;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 128, 191, 0.3);
+}
+
+.cute-btn:hover {
+  background: #ff4da6;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 77, 166, 0.4);
+}
+
+/* messages */
+.message {
+  margin-top: 10px;
+  color: #ff4da6;
+  font-size: 14px;
+}
+
+/* flex container for buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
