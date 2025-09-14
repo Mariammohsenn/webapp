@@ -15,7 +15,6 @@ export default function Welcome() {
         setMessage("Not authenticated or token expired.");
       }
     };
-
     fetchProtected();
   }, []);
 

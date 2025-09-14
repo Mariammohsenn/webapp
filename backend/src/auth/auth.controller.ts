@@ -19,7 +19,7 @@ export class AuthController {
   }
 
   @Get('protected')
-  @UseGuards(AuthGuard())
+  @UseGuards(AuthGuard('jwt'))
   getProtected() {
     return { message: 'You have accessed a protected route!' };
   }
