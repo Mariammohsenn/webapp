@@ -1,20 +1,3 @@
-// // this blocks users if not logged in.
-// import React from "react";
-// import { Navigate } from "react-router-dom";
-// import API from "../api";
-
-// type Props = {
-//   children: React.ReactNode;
-// };
-
-// export default function ProtectedRoute({ children }: Props) {
-//   const token = localStorage.getItem("token");
-//   const r = API.get("/auth/protected");
-//   if (!token && !r) {
-//     return <Navigate to="/login" replace />;
-//   }
-//   return <>{children}</>;
-// }
 import React, { useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
 import API from "../api"; // adjust import
